@@ -18,8 +18,8 @@
   <!-- Hero Section -->
   <main class="h-screen relative">
     <!-- Navigation Bar -->
-    <nav class="px-36 py-8 absolute w-full flex justify-between items-center">
-      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <nav class="px-36 py-16 absolute w-full flex justify-between items-center">
+      <svg class="nav-left" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.5762 7.01086C11.5762 3.13887 14.715 0 18.587 0V0V30H11.5762V7.01086Z" fill="var(--svg-color)" />
         <rect y="15.8986" width="7.01087" height="14.1014" fill="var(--svg-color)" />
         <rect x="22.9893" y="15.8986" width="7.01087" height="14.1014" fill="var(--svg-color)" />
@@ -28,7 +28,7 @@
           fill="var(--svg-color)" />
         <rect x="22.9893" width="5.9447" height="5.38043" transform="rotate(90 22.9893 0)" fill="var(--svg-color)" />
       </svg>
-      <div class="flex gap-4 items-center">
+      <div class="flex gap-4 items-center nav-right">
         <button id="theme-toggle" type="button"
           class="text-zinc-500 dark:text-zinc-400 hover:bg-zinc-400/20 dark:hover:bg-zinc-400/20 rounded-md transition duration-500 ease-in-out text-sm p-2.5">
           <svg id="theme-toggle-dark-icon" class="hidden w-[19px] h-[19px]" fill="currentColor" viewBox="0 0 20 20"
@@ -71,17 +71,22 @@
         </a>
       </div>
     </nav>
+    <!-- // Navigation Bar -->
+    <!-- Header -->
     <header class="flex justify-center items-center h-full px-36">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati consectetur fuga
-        explicabo repudiandae, quo magni ipsam perferendis assumenda sequi, a sint iure quasi libero molestias nesciunt
-        animi suscipit fugit! Architecto!</p>
+      <div class="text-wrap flex flex-col items-center justify-center space-y-3 heading">
+        <h2 class="text-[7rem] leading-none text-[#838383] italic">"Don't tell, show."</h2>
+        <p>Bonjour! I'm Fred. Take a look at my works.</p>
+      </div>
     </header>
+    <!-- // Header -->
   </main>
+  <!-- Hero Section -->
   <!-- Content Sections -->
   <section class="h-screen flex items-center justify-center">
     <div class="flex lg:flex-row flex-col lg:items-start items-center w-full max-w-[60rem] lg:gap-12 gap-3 p-6">
       <img src="https://placehold.co/450x600" alt=""
-        class="skewElem rounded-md lg:w-[450px] w-[350px] lg:h-[600px] h-[500px]" />
+        class="skewElem img-1 rounded-md lg:w-[450px] w-[350px] lg:h-[600px] h-[500px]" />
       <div class="flex flex-col gap-3 desc-1">
         <h1 class="lg:text-3xl text-xl leading-none">Dalí</h1>
         <p class="lg:text-sm text-xs border-l border-zinc-600 pl-4 italic">"Mistakes are almost always of
@@ -95,7 +100,7 @@
   <section class="h-screen flex items-center justify-center">
     <div class="flex lg:flex-row flex-col lg:items-start items-center w-full max-w-[60rem] lg:gap-12 gap-3 p-6">
       <img src="https://placehold.co/450x600" alt=""
-        class="skewElem rounded-md lg:w-[450px] w-[350px] lg:h-[600px] h-[500px]" />
+        class="skewElem img-2 rounded-md lg:w-[450px] w-[350px] lg:h-[600px] h-[500px]" />
       <div class="flex flex-col gap-3 desc-2">
         <h1 class="lg:text-3xl text-xl leading-none">Einstein</h1>
         <p class="lg:text-sm text-xs border-l border-zinc-600 pl-4 italic">"Lorem ipsum dolor sit amet
@@ -131,6 +136,7 @@
       </div>
     </div>
   </section>
+  <!-- Content Sections -->
   <!-- Lenis and Skew GSAP Effects -->
   <script type="module" src="./src/js/script.js"></script>
   <!-- GSAP Animations -->
