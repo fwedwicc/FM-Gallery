@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Base */
 @layer base {
   body {
     @apply bg-neutral-800;
@@ -12,7 +13,6 @@
   p {
     @apply text-zinc-300;
   }
-
   .dark body {
     @apply bg-zinc-300;
   }
@@ -23,12 +23,39 @@
     @apply text-zinc-900;
   }
 }
-
+/* SVG Color */
 :root {
-  --svg-color: rgb(125, 125, 125); /* Light mode color */
+  --svg-color: rgb(125, 125, 125);
 }
-
 svg path,
 svg rect {
   fill: var(--svg-color);
+}
+
+/* Scrollbar */
+
+body {
+  --sb-track-color: transparent;
+  --sb-thumb-color: #7d7d7d;
+  --sb-size: 5px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
