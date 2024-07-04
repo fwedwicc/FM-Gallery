@@ -1,21 +1,16 @@
-// Initialize Lenis
-const lenis = new Lenis({
-  duration: 1.2,
-  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-  smooth: true,
-  direction: 'vertical', // or 'horizontal'
-  smoothTouch: false,
-});
+// Lenis script
+const lenis = new Lenis()
 
-// Update scroll position
-lenis.on('scroll', ScrollTrigger.update);
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
 
 function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
+  lenis.raf(time)
+  requestAnimationFrame(raf)
 }
 
-requestAnimationFrame(raf);
+requestAnimationFrame(raf)
 
 
 // Ensure GSAP and ScrollTrigger are available
