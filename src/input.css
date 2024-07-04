@@ -6,9 +6,29 @@
   body {
     @apply bg-neutral-800;
   }
+  svg,
   h1,
   h2,
   p {
     @apply text-zinc-300;
   }
+
+  .dark body {
+    @apply bg-zinc-300;
+  }
+  .dark svg,
+  .dark h1,
+  .dark h2,
+  .dark p {
+    @apply text-zinc-900;
+  }
+}
+
+:root {
+  --svg-color: rgb(125, 125, 125); /* Light mode color */
+}
+
+svg path,
+svg rect {
+  fill: var(--svg-color);
 }
