@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-800;
+  }
+  h1,
+  h2,
+  p {
+    @apply text-zinc-300;
+  }
+}

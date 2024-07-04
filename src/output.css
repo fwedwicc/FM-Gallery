@@ -446,6 +446,18 @@ video {
   display: none;
 }
 
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+}
+
+h1,
+  h2,
+  p {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 216 / var(--tw-text-opacity));
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -554,48 +566,12 @@ video {
   --tw-contain-style:  ;
 }
 
-.mt-12 {
-  margin-top: 3rem;
+.absolute {
+  position: absolute;
 }
 
-.mt-\[10rem\] {
-  margin-top: 10rem;
-}
-
-.mt-\[20rem\] {
-  margin-top: 20rem;
-}
-
-.mt-\[15rem\] {
-  margin-top: 15rem;
-}
-
-.mt-\[12rem\] {
-  margin-top: 12rem;
-}
-
-.mt-\[5rem\] {
-  margin-top: 5rem;
-}
-
-.mt-\[7rem\] {
-  margin-top: 7rem;
-}
-
-.mt-\[6rem\] {
-  margin-top: 6rem;
-}
-
-.mt-\[6\.5rem\] {
-  margin-top: 6.5rem;
-}
-
-.mt-\[2rem\] {
-  margin-top: 2rem;
-}
-
-.mt-\[3rem\] {
-  margin-top: 3rem;
+.relative {
+  position: relative;
 }
 
 .flex {
@@ -604,6 +580,10 @@ video {
 
 .h-\[500px\] {
   height: 500px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .h-screen {
@@ -634,6 +614,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -642,17 +626,8 @@ video {
   border-radius: 0.375rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-l {
   border-left-width: 1px;
-}
-
-.border-zinc-100 {
-  --tw-border-opacity: 1;
-  border-color: rgb(244 244 245 / var(--tw-border-opacity));
 }
 
 .border-zinc-600 {
@@ -660,13 +635,23 @@ video {
   border-color: rgb(82 82 91 / var(--tw-border-opacity));
 }
 
-.bg-neutral-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
-}
-
 .p-6 {
   padding: 1.5rem;
+}
+
+.px-36 {
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pl-4 {
@@ -689,11 +674,6 @@ video {
 
 .leading-none {
   line-height: 1;
-}
-
-.text-zinc-300 {
-  --tw-text-opacity: 1;
-  color: rgb(212 212 216 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
