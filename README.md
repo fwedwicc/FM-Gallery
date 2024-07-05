@@ -2,6 +2,8 @@
 
 FM Gallery is a compilation of my portrait masterpieces created over the years. This website showcases my journey and skills as a traditional artist.
 
+Image Overview ~ Under Construction
+
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
@@ -14,7 +16,6 @@ FM Gallery is a compilation of my portrait masterpieces created over the years. 
 - HTML
 - CSS
 - JavaScript
-- React
 - TailwindCSS
 - GSAP
 
