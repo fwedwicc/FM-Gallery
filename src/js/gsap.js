@@ -36,24 +36,37 @@ const createScrollAnimation = (start, end) => {
   );
   // --------- // Navigation bar ---------
   // ---------  Heading ---------
-  gsap.fromTo('.heading',
+  gsap.to('.heading',
     {
-      opacity: 1,
-      scale: 1 // Start with default size
-    }, // from
-    { // to
-      opacity: 0,
-      scale: 0.8, // End with smaller size
       scrollTrigger: {
         trigger: '.heading',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
-        start: 'top 30%',
-        end: 'bottom 10%',
+        start: 'top 40%',
+        end: 'bottom 25%',
       },
       ease: 'none',
-      duration: 3,
+      y: 600,
+      duration: 1,
+    }
+  );
+  gsap.fromTo('#heading-bg',
+    {
+      scale: 1
+    },
+    {
+      scale: 1.3,
+      scrollTrigger: {
+        trigger: '#heading-bg',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: true,
+        start: 'top -10%',
+        end: 'bottom 5%',
+      },
+      ease: 'none',
+      duration: 1,
     }
   );
   // --------- // Heading ---------
