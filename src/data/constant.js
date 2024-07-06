@@ -1,13 +1,13 @@
 // Array of section data
 const sections = [
   {
-    title: "Lorem Ipsum",
+    title: "Dalí",
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     date: "2022",
-    imageUrl: "https://placehold.co/450x600",
+    imageUrl: "/src/assets/salvador-dali.jpg",
     imageId: "img-1",
     descId: "desc-1",
-    altText: "Lorem ipsum"
+    altText: "Salvadro Dalí"
   },
   {
     title: "Lorem Ipsum",
@@ -43,7 +43,7 @@ const createSectionHTML = ({ title, quote, date, imageUrl, imageId, descId, altT
   <section class="h-screen flex items-center justify-center bg-neutral-900 dark:bg-zinc-200 z-50">
     <div class="flex lg:flex-row flex-col lg:items-start items-center w-full max-w-[60rem] lg:gap-12 gap-3 p-6 z-20">
       <img src="${imageUrl}" alt="${altText}" id="${imageId}"
-        class="skewElem rounded-md lg:w-[450px] w-[350px] lg:h-[600px] h-[500px]" />
+        class="skewElem grayscale rounded-md lg:w-[450px] w-[350px] lg:h-[600px] h-[500px]" />
       <div class="flex flex-col gap-3" id="${descId}">
         <h1 class="lg:text-3xl text-xl leading-none">${title}</h1>
         <p class="lg:text-sm text-xs border-l border-zinc-600 pl-4 italic">${quote}</p>
