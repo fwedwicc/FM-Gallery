@@ -34,6 +34,7 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
+  // --------- // Navigation bar ---------
   // ---------  Heading ---------
   gsap.fromTo('.heading',
     {
@@ -55,6 +56,7 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
+  // --------- // Heading ---------
   // ---------  Section 1 ---------
   gsap.fromTo('.img-1',
     {
@@ -92,6 +94,7 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
+  // --------- // Section 1 ---------
   // --------- Section 2 ---------
   gsap.fromTo('.img-2',
     {
@@ -129,6 +132,28 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
+  // --------- // Section 2 ---------
+  // --------- Section 3 ---------
+  gsap.fromTo('.img-3',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '.img-3',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
   gsap.fromTo('.desc-3',
     { opacity: 0 }, // from
     { // to
@@ -145,6 +170,45 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
+  // --------- // Section 3 ---------
+  // --------- Section 4 ---------
+  gsap.fromTo('.img-4',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '.img-4',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('.desc-4',
+    { opacity: 0 }, // from
+    { // to
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '.desc-4',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: start,
+        end: end,
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  // --------- // Section 4 ---------
 };
 
 ScrollTrigger.matchMedia({
