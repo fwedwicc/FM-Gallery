@@ -61,7 +61,7 @@ const createScrollAnimation = (start, end) => {
         trigger: '#heading-bg',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
-        markers: true,
+        markers: false,
         start: 'top -10%',
         end: 'bottom 5%',
       },

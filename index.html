@@ -14,11 +14,11 @@
   <link href="./src/output.css" rel="stylesheet">
 </head>
 
-<body class="transition-colors duration-500 ease-in-out">
+<body class="transition-colors duration-500 ease-in-out overflow-x-hidden">
   <!-- Hero Section -->
-  <main class="h-screen relative">
+  <div class="h-screen relative">
     <!-- Navigation Bar -->
-    <nav class="px-36 py-16 absolute w-full flex justify-between items-center z-10">
+    <nav class="lg:px-36 px-20 lg:py-16 py-6 absolute w-full flex justify-between items-center z-10">
       <svg class="nav-left" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.5762 7.01086C11.5762 3.13887 14.715 0 18.587 0V0V30H11.5762V7.01086Z" fill="var(--svg-color)" />
         <rect y="15.8986" width="7.01087" height="14.1014" fill="var(--svg-color)" />
@@ -28,7 +28,7 @@
           fill="var(--svg-color)" />
         <rect x="22.9893" width="5.9447" height="5.38043" transform="rotate(90 22.9893 0)" fill="var(--svg-color)" />
       </svg>
-      <div class="flex gap-4 items-center nav-right">
+      <div class="nav-right">
         <button id="theme-toggle" type="button"
           class="text-zinc-500 dark:text-zinc-400 hover:bg-zinc-400/20 dark:hover:bg-zinc-400/20 rounded-md transition duration-500 ease-in-out text-sm p-2.5">
           <svg id="theme-toggle-dark-icon" class="hidden w-[19px] h-[19px]" fill="currentColor" viewBox="0 0 20 20"
@@ -42,54 +42,76 @@
               fill-rule="evenodd" clip-rule="evenodd"></path>
           </svg>
         </button>
-        <!-- <a href="#" type="button"
-          class="text-zinc-500 dark:text-zinc-400 hover:bg-zinc-400/20 dark:hover:bg-zinc-400/20 rounded-md transition duration-500 ease-in-out text-sm p-2.5">
-          <svg class="w-[19px] h-[19px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-            fill="currentColor" viewBox=" 0 0 24 24">
-            <path fill-rule="evenodd"
-              d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
-              clip-rule="evenodd" />
-          </svg>
-        </a>
-        <a href="#" type="button"
-          class="text-zinc-500 dark:text-zinc-400 hover:bg-zinc-400/20 dark:hover:bg-zinc-400/20 rounded-md transition duration-500 ease-in-out text-sm p-2.5">
-          <svg class=" w-[19px] h-[19px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-            fill="none" viewBox="0 0 24 24">
-            <path fill="var(--svg-color)" fill-rule="evenodd"
-              d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
-              clip-rule="evenodd" />
-          </svg>
-        </a>
-        <a href="#" type="button"
-          class="text-zinc-500 dark:text-zinc-400 hover:bg-zinc-400/20 dark:hover:bg-zinc-400/20 rounded-md transition duration-500 ease-in-out text-sm p-2.5">
-          <svg class=" w-[19px] h-[19px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--svg-color)"
-            class="size-6">
-            <path fill-rule="evenodd"
-              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM6.262 6.072a8.25 8.25 0 1 0 10.562-.766 4.5 4.5 0 0 1-1.318 1.357L14.25 7.5l.165.33a.809.809 0 0 1-1.086 1.085l-.604-.302a1.125 1.125 0 0 0-1.298.21l-.132.131c-.439.44-.439 1.152 0 1.591l.296.296c.256.257.622.374.98.314l1.17-.195c.323-.054.654.036.905.245l1.33 1.108c.32.267.46.694.358 1.1a8.7 8.7 0 0 1-2.288 4.04l-.723.724a1.125 1.125 0 0 1-1.298.21l-.153-.076a1.125 1.125 0 0 1-.622-1.006v-1.089c0-.298-.119-.585-.33-.796l-1.347-1.347a1.125 1.125 0 0 1-.21-1.298L9.75 12l-1.64-1.64a6 6 0 0 1-1.676-3.257l-.172-1.03Z"
-              clip-rule="evenodd" />
-          </svg>
-        </a> -->
       </div>
     </nav>
-    <!-- // Navigation Bar -->
     <!-- Header -->
-    <header class="flex justify-center items-center h-screen px-36 relative">
+    <header class="flex justify-center items-center h-screen lg:px-36 px-16 relative">
       <img src="./src/assets/david-sculpture.png" alt="David Sculpture" id="heading-bg"
-        class="fixed bottom-0 w-full h-full object-cover z-[-10] opacity-90">
-      <div class="text-wrap flex flex-col items-center justify-center space-y-3 heading relative z-[-10]">
-        <h2 class="text-[6.5rem] leading-none text-zinc-100 dark:text-zinc-300 italic">"Don't tell, show."</h2>
-        <p class="text-zinc-100 dark:text-zinc-100">Bonjour! I'm Fred. Have a seat and explore my creation.</p>
+        class="fixed bottom-0 w-full h-full object-cover z-[-10]">
+      <div
+        class="text-wrap flex flex-col lg:items-center items-start justify-center space-y-3 heading relative z-[-10]">
+        <h2
+          class="lg:text-[6.5rem] text-[4.5rem] leading-none text-zinc-100 dark:text-zinc-300 italic dark:bg-zinc-800/40 dark:backdrop-blur-sm rounded-md transitin duration-300 ease-in-out">
+          "Don't tell, show."</h2>
+        <p
+          class="text-zinc-100 dark:text-zinc-100 dark:bg-zinc-800/40 dark:backdrop-blur-sm rounded-sm transitin duration-300 ease-in-out">
+          Bonjour! I'm Fred. Have a seat and explore my creation.
+        </p>
       </div>
     </header>
-
-    <!-- // Header -->
-  </main>
-  <!-- // Hero Section -->
+  </div>
   <!-- Content Sections -->
   <div id="content-sections">
     <!-- Rendered content sections -->
   </div>
-  <!-- // Content Sections -->
+  <p class="bg-neutral-900 dark:bg-zinc-200 text-center py-12">So you've reached this far! I don't think many visitors
+    did either. <br> Thank you so much for your appreciation! ♡</p>
+  <footer
+    class="bg-neutral-900 dark:bg-zinc-200 lg:px-36 px-20 lg:py-16 py-6 absolute w-full flex justify-between items-center z-50">
+
+    <div class="flex items-end gap-5">
+      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.5762 7.01086C11.5762 3.13887 14.715 0 18.587 0V0V30H11.5762V7.01086Z" fill="var(--svg-color)" />
+        <rect y="15.8986" width="7.01087" height="14.1014" fill="var(--svg-color)" />
+        <rect x="22.9893" y="15.8986" width="7.01087" height="14.1014" fill="var(--svg-color)" />
+        <path
+          d="M24.0553 9.95392C27.3385 9.95392 30 12.6155 30 15.8986V15.8986L1.52588e-05 15.8986V15.8986C1.52588e-05 12.6155 2.66155 9.95392 5.94472 9.95392L24.0553 9.95392Z"
+          fill="var(--svg-color)" />
+        <rect x="22.9893" width="5.9447" height="5.38043" transform="rotate(90 22.9893 0)" fill="var(--svg-color)" />
+      </svg>
+      <p class="text-sm">© 2024 Frederick Moreno</p>
+    </div>
+    <div class="flex gap-3">
+      <a href="#" type="button"
+        class="text-zinc-500 dark:text-zinc-400 hover:bg-zinc-400/20 dark:hover:bg-zinc-400/20 rounded-md transition duration-500 ease-in-out text-sm p-2.5">
+        <svg class="w-[19px] h-[19px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          fill="currentColor" viewBox=" 0 0 24 24">
+          <path fill-rule="evenodd"
+            d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+            clip-rule="evenodd" />
+        </svg>
+      </a>
+      <a href="#" type="button"
+        class="text-zinc-500 dark:text-zinc-400 hover:bg-zinc-400/20 dark:hover:bg-zinc-400/20 rounded-md transition duration-500 ease-in-out text-sm p-2.5">
+        <svg class=" w-[19px] h-[19px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          fill="none" viewBox="0 0 24 24">
+          <path fill="var(--svg-color)" fill-rule="evenodd"
+            d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+            clip-rule="evenodd" />
+        </svg>
+      </a>
+      <a href="#" type="button"
+        class="text-zinc-500 dark:text-zinc-400 hover:bg-zinc-400/20 dark:hover:bg-zinc-400/20 rounded-md transition duration-500 ease-in-out text-sm p-2.5">
+        <svg class=" w-[19px] h-[19px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--svg-color)"
+          class="size-6">
+          <path fill-rule="evenodd"
+            d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM6.262 6.072a8.25 8.25 0 1 0 10.562-.766 4.5 4.5 0 0 1-1.318 1.357L14.25 7.5l.165.33a.809.809 0 0 1-1.086 1.085l-.604-.302a1.125 1.125 0 0 0-1.298.21l-.132.131c-.439.44-.439 1.152 0 1.591l.296.296c.256.257.622.374.98.314l1.17-.195c.323-.054.654.036.905.245l1.33 1.108c.32.267.46.694.358 1.1a8.7 8.7 0 0 1-2.288 4.04l-.723.724a1.125 1.125 0 0 1-1.298.21l-.153-.076a1.125 1.125 0 0 1-.622-1.006v-1.089c0-.298-.119-.585-.33-.796l-1.347-1.347a1.125 1.125 0 0 1-.21-1.298L9.75 12l-1.64-1.64a6 6 0 0 1-1.676-3.257l-.172-1.03Z"
+            clip-rule="evenodd" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+
   <!-- Constants/Data -->
   <script src="./src/data/constant.js"></script>
   <!-- Lenis and Skew GSAP Effects -->
