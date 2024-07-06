@@ -58,7 +58,7 @@ const createScrollAnimation = (start, end) => {
   );
   // --------- // Heading ---------
   // ---------  Section 1 ---------
-  gsap.fromTo('.img-1',
+  gsap.fromTo('#img-1',
     {
       opacity: 0,
       scale: 0.9 // Start with default size
@@ -67,7 +67,7 @@ const createScrollAnimation = (start, end) => {
       opacity: 1,
       scale: 1, // End with smaller size
       scrollTrigger: {
-        trigger: '.img-1',
+        trigger: '#img-1',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
@@ -78,12 +78,12 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
-  gsap.fromTo('.desc-1',
+  gsap.fromTo('#desc-1',
     { opacity: 0 }, // from
     { // to
       opacity: 1,
       scrollTrigger: {
-        trigger: '.desc-1',
+        trigger: '#desc-1',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
@@ -96,7 +96,7 @@ const createScrollAnimation = (start, end) => {
   );
   // --------- // Section 1 ---------
   // --------- Section 2 ---------
-  gsap.fromTo('.img-2',
+  gsap.fromTo('#img-2',
     {
       opacity: 0,
       scale: 0.9 // Start with default size
@@ -105,7 +105,7 @@ const createScrollAnimation = (start, end) => {
       opacity: 1,
       scale: 1, // End with smaller size
       scrollTrigger: {
-        trigger: '.img-2',
+        trigger: '#img-2',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
@@ -116,12 +116,12 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
-  gsap.fromTo('.desc-2',
+  gsap.fromTo('#desc-2',
     { opacity: 0 }, // from
     { // to
       opacity: 1,
       scrollTrigger: {
-        trigger: '.desc-2',
+        trigger: '#desc-2',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
@@ -134,7 +134,7 @@ const createScrollAnimation = (start, end) => {
   );
   // --------- // Section 2 ---------
   // --------- Section 3 ---------
-  gsap.fromTo('.img-3',
+  gsap.fromTo('#img-3',
     {
       opacity: 0,
       scale: 0.9 // Start with default size
@@ -143,7 +143,7 @@ const createScrollAnimation = (start, end) => {
       opacity: 1,
       scale: 1, // End with smaller size
       scrollTrigger: {
-        trigger: '.img-3',
+        trigger: '#img-3',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
@@ -154,12 +154,12 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
-  gsap.fromTo('.desc-3',
+  gsap.fromTo('#desc-3',
     { opacity: 0 }, // from
     { // to
       opacity: 1,
       scrollTrigger: {
-        trigger: '.desc-3',
+        trigger: '#desc-3',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
@@ -172,7 +172,7 @@ const createScrollAnimation = (start, end) => {
   );
   // --------- // Section 3 ---------
   // --------- Section 4 ---------
-  gsap.fromTo('.img-4',
+  gsap.fromTo('#img-4',
     {
       opacity: 0,
       scale: 0.9 // Start with default size
@@ -181,7 +181,7 @@ const createScrollAnimation = (start, end) => {
       opacity: 1,
       scale: 1, // End with smaller size
       scrollTrigger: {
-        trigger: '.img-4',
+        trigger: '#img-4',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
@@ -192,12 +192,12 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
-  gsap.fromTo('.desc-4',
+  gsap.fromTo('#desc-4',
     { opacity: 0 }, // from
     { // to
       opacity: 1,
       scrollTrigger: {
-        trigger: '.desc-4',
+        trigger: '#desc-4',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
