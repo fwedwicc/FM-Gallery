@@ -222,6 +222,90 @@ const createScrollAnimation = (start, end) => {
     }
   );
   // --------- // Section 4 ---------
+
+
+
+
+  gsap.fromTo('#img-set-1',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-1',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-2',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-2',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-3',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-3',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-4',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-4',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
 };
 
 ScrollTrigger.matchMedia({
