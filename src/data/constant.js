@@ -40,8 +40,8 @@ const sections = [
 
 // Function to create a section HTML
 const createSectionHTML = ({ title, quote, date, imageUrl, imageId, descId, altText }) => `
-  <section class="h-screen flex items-center justify-center">
-    <div class="flex lg:flex-row flex-col lg:items-start items-center w-full max-w-[60rem] lg:gap-12 gap-3 p-6">
+  <section class="h-screen flex items-center justify-center bg-neutral-900 dark:bg-zinc-200 z-50">
+    <div class="flex lg:flex-row flex-col lg:items-start items-center w-full max-w-[60rem] lg:gap-12 gap-3 p-6 z-20">
       <img src="${imageUrl}" alt="${altText}" id="${imageId}"
         class="skewElem rounded-md lg:w-[450px] w-[350px] lg:h-[600px] h-[500px]" />
       <div class="flex flex-col gap-3" id="${descId}">

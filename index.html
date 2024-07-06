@@ -18,7 +18,7 @@
   <!-- Hero Section -->
   <main class="h-screen relative">
     <!-- Navigation Bar -->
-    <nav class="px-36 py-16 absolute w-full flex justify-between items-center">
+    <nav class="px-36 py-16 absolute w-full flex justify-between items-center z-10">
       <svg class="nav-left" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.5762 7.01086C11.5762 3.13887 14.715 0 18.587 0V0V30H11.5762V7.01086Z" fill="var(--svg-color)" />
         <rect y="15.8986" width="7.01087" height="14.1014" fill="var(--svg-color)" />
@@ -73,12 +73,15 @@
     </nav>
     <!-- // Navigation Bar -->
     <!-- Header -->
-    <header class="flex justify-center items-center h-full px-36">
-      <div class="text-wrap flex flex-col items-center justify-center space-y-3 heading">
-        <h2 class="text-[7rem] leading-none text-[#838383] italic">"Don't tell, show."</h2>
-        <p>Bonjour! I'm Fred. Take a look at my works.</p>
+    <header class="flex justify-center items-center h-screen px-36 relative">
+      <img src="./src/assets/david-sculpture.png" alt="David Sculpture"
+        class="fixed bottom-0 w-full h-full object-cover z-[-10]">
+      <div class="text-wrap flex flex-col items-center justify-center space-y-3 heading relative z-10">
+        <h2 class="text-[7rem] leading-none text-zinc-100 dark:text-zinc-100/90 italic">"Don't tell, show."</h2>
+        <p class="text-zinc-100 dark:text-zinc-100">Bonjour! I'm Fred. Take a look at creation.</p>
       </div>
     </header>
+
     <!-- // Header -->
   </main>
   <!-- // Hero Section -->
