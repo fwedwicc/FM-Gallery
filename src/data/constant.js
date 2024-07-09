@@ -13,7 +13,7 @@ const sections = [
     title: "Lorem Ipsum",
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     date: "2022",
-    imageUrl: "https://placehold.co/450x600",
+    imageUrl: "/src/assets/salvador-dali.jpg",
     imageId: "img-2",
     descId: "desc-2",
     altText: "Lorem ipsum"
@@ -22,7 +22,7 @@ const sections = [
     title: "Lorem Ipsum",
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     date: "2022",
-    imageUrl: "https://placehold.co/450x600",
+    imageUrl: "/src/assets/salvador-dali.jpg",
     imageId: "img-3",
     descId: "desc-3",
     altText: "Lorem ipsum"
@@ -31,7 +31,7 @@ const sections = [
     title: "Lorem Ipsum",
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     date: "2022",
-    imageUrl: "https://placehold.co/450x600",
+    imageUrl: "/src/assets/salvador-dali.jpg",
     imageId: "img-4",
     descId: "desc-4",
     altText: "Lorem ipsum"
