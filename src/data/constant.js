@@ -4,28 +4,28 @@ const sections = [
     title: "Dalí",
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     date: "2022",
-    imageUrl: "/src/assets/salvador-dali.jpg",
+    imageUrl: "/src/assets/salvador-dali-fmPortrait.jpg",
     imageId: "img-1",
     descId: "desc-1",
-    altText: "Salvadro Dalí"
+    altText: "Salvadro Dalí FM Portrait"
   },
   {
-    title: "Lorem Ipsum",
+    title: "Einstein",
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     date: "2022",
-    imageUrl: "/src/assets/salvador-dali.jpg",
+    imageUrl: "/src/assets/albert-einstein-fmPortrait.jpg",
     imageId: "img-2",
     descId: "desc-2",
-    altText: "Lorem ipsum"
+    altText: "Albert Einstein FM Portrait"
   },
   {
-    title: "Lorem Ipsum",
+    title: "Joker",
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     date: "2022",
-    imageUrl: "/src/assets/salvador-dali.jpg",
+    imageUrl: "/src/assets/joker-fmPortfolio.jpg",
     imageId: "img-3",
     descId: "desc-3",
-    altText: "Lorem ipsum"
+    altText: "Joker FM Portrait"
   },
   {
     title: "Lorem Ipsum",
