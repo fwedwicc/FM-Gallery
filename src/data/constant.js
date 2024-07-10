@@ -28,13 +28,22 @@ const sections = [
     altText: "Joker FM Portrait"
   },
   {
-    title: "Lorem Ipsum",
+    title: "Stan",
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     date: "2022",
-    imageUrl: "/src/assets/salvador-dali.jpg",
+    imageUrl: "/src/assets/stan-lee-fmPortfolio.jpg",
     imageId: "img-4",
     descId: "desc-4",
-    altText: "Lorem ipsum"
+    altText: "Stan Lee FM Portrait"
+  },
+  {
+    title: "Logan",
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    date: "2022",
+    imageUrl: "/src/assets/logan-fmPortfolio.jpg",
+    imageId: "img-5",
+    descId: "desc-5",
+    altText: "Logan FM Portrait"
   }
 ];
 
