@@ -29,12 +29,12 @@ const sections = [
   },
   {
     title: "Mercury",
-    quote: '"The only advice anybody can give is if you wanna be a writer, keep writing. And read all you can, read everything."',
+    quote: '"The most important thing is to live a fabulous life. As long as it’s fabulous, I don’t care how long it is."',
     date: "05-25-20",
-    imageUrl: "/src/assets/stan-lee-fmPortfolio.jpg",
+    imageUrl: "/src/assets/mercury-fmPortfolio.jpg",
     imageId: "img-4",
     descId: "desc-4",
-    altText: "Stan Lee FM Portrait"
+    altText: "Mercury FM Portrait"
   },
   {
     title: "Stan",
@@ -53,7 +53,52 @@ const sections = [
     imageId: "img-5",
     descId: "desc-5",
     altText: "Logan FM Portrait"
-  }
+  },
+  {
+    title: "Jackie",
+    quote: '"I’m not afraid of dying. I’m afraid of not trying."',
+    date: "04-25-20",
+    imageUrl: "/src/assets/jackie-fmPortfolio.jpg",
+    imageId: "img-5",
+    descId: "desc-5",
+    altText: "Jackie FM Portrait"
+  },
+  {
+    title: "RDJ",
+    quote: '"Sometimes you gotta run before you can walk."',
+    date: "04-18-20",
+    imageUrl: "/src/assets/rdj-fmPortfolio.jpg",
+    imageId: "img-5",
+    descId: "desc-5",
+    altText: "RDJ FM Portrait"
+  },
+  {
+    title: "Freeman",
+    quote: '"I can say that life is good to me. Has been and is good. So I think my task is to be good to it. So how do you be good to life? You live it."',
+    date: "04-14-20",
+    imageUrl: "/src/assets/freeman-fmPortfolio.jpg",
+    imageId: "img-5",
+    descId: "desc-5",
+    altText: "Freeman FM Portrait"
+  },
+  {
+    title: "Schwarzenegger",
+    quote: '"The mind is the limit. As long as the mind can envision the fact that you can do something, you can do it, as long as you really believe 100 percent."',
+    date: "04-09-20",
+    imageUrl: "/src/assets/schwarzenegger-fmPortfolio.jpg",
+    imageId: "img-5",
+    descId: "desc-5",
+    altText: "Schwarzenegger FM Portrait"
+  },
+  {
+    title: "Ledger",
+    quote: '"You see, in their last moments, people show you who they really are."',
+    date: "04-01-20",
+    imageUrl: "/src/assets/Ledger-fmPortfolio.jpg",
+    imageId: "img-5",
+    descId: "desc-5",
+    altText: "Ledger FM Portrait"
+  },
   // Jackie / 04-25-20
   // RDJ / 04-18-20
   // Freeman / 04-14-20
