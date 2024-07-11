@@ -2,7 +2,7 @@
 const sections = [
   {
     title: "Dalí",
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    quote: '"Surrealism is destructive, but it destroys only what it considers to be shackles limiting our vision."',
     date: "2022",
     imageUrl: "/src/assets/salvador-dali-fmPortrait.jpg",
     imageId: "img-1",
@@ -11,7 +11,7 @@ const sections = [
   },
   {
     title: "Einstein",
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    quote: '"Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution."',
     date: "2022",
     imageUrl: "/src/assets/albert-einstein-fmPortrait.jpg",
     imageId: "img-2",
@@ -20,7 +20,7 @@ const sections = [
   },
   {
     title: "Joker",
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    quote: '"I used to think that my life was a tragedy, but now I realize, it’s a comedy."',
     date: "2022",
     imageUrl: "/src/assets/joker-fmPortfolio.jpg",
     imageId: "img-3",
@@ -29,7 +29,7 @@ const sections = [
   },
   {
     title: "Stan",
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    quote: '"The only advice anybody can give is if you wanna be a writer, keep writing. And read all you can, read everything."',
     date: "2022",
     imageUrl: "/src/assets/stan-lee-fmPortfolio.jpg",
     imageId: "img-4",
@@ -38,7 +38,7 @@ const sections = [
   },
   {
     title: "Logan",
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    quote: '"Nature made me a freak. Man made me a weapon. And God made it last too long."',
     date: "2022",
     imageUrl: "/src/assets/logan-fmPortfolio.jpg",
     imageId: "img-5",
