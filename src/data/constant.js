@@ -22,7 +22,7 @@ const sections = [
     title: "Joker",
     quote: '"I used to think that my life was a tragedy, but now I realize, it’s a comedy."',
     date: "06-05-20",
-    imageUrl: "/src/assets/joker-fmPortfolio.jpg",
+    imageUrl: "/src/assets/joker-fmPortrait.jpg",
     imageId: "img-3",
     descId: "desc-3",
     altText: "Joker FM Portrait"
@@ -31,7 +31,7 @@ const sections = [
     title: "Mercury",
     quote: '"The most important thing is to live a fabulous life. As long as it’s fabulous, I don’t care how long it is."',
     date: "05-25-20",
-    imageUrl: "/src/assets/mercury-fmPortfolio.jpg",
+    imageUrl: "/src/assets/mercury-fmPortrait.jpg",
     imageId: "img-4",
     descId: "desc-4",
     altText: "Mercury FM Portrait"
@@ -40,7 +40,7 @@ const sections = [
     title: "Stan",
     quote: '"The only advice anybody can give is if you wanna be a writer, keep writing. And read all you can, read everything."',
     date: "05-10-20",
-    imageUrl: "/src/assets/stan-lee-fmPortfolio.jpg",
+    imageUrl: "/src/assets/stan-lee-fmPortrait.jpg",
     imageId: "img-4",
     descId: "desc-4",
     altText: "Stan Lee FM Portrait"
@@ -49,7 +49,7 @@ const sections = [
     title: "Logan",
     quote: '"Nature made me a freak. Man made me a weapon. And God made it last too long."',
     date: "04-30-20",
-    imageUrl: "/src/assets/logan-fmPortfolio.jpg",
+    imageUrl: "/src/assets/logan-fmPortrait.jpg",
     imageId: "img-5",
     descId: "desc-5",
     altText: "Logan FM Portrait"
@@ -58,7 +58,7 @@ const sections = [
     title: "Jackie",
     quote: '"I’m not afraid of dying. I’m afraid of not trying."',
     date: "04-25-20",
-    imageUrl: "/src/assets/jackie-fmPortfolio.jpg",
+    imageUrl: "/src/assets/jackie-fmPortrait.jpg",
     imageId: "img-5",
     descId: "desc-5",
     altText: "Jackie FM Portrait"
@@ -67,7 +67,7 @@ const sections = [
     title: "RDJ",
     quote: '"Sometimes you gotta run before you can walk."',
     date: "04-18-20",
-    imageUrl: "/src/assets/rdj-fmPortfolio.jpg",
+    imageUrl: "/src/assets/rdj-fmPortrait.jpg",
     imageId: "img-5",
     descId: "desc-5",
     altText: "RDJ FM Portrait"
@@ -76,7 +76,7 @@ const sections = [
     title: "Freeman",
     quote: '"I can say that life is good to me. Has been and is good. So I think my task is to be good to it. So how do you be good to life? You live it."',
     date: "04-14-20",
-    imageUrl: "/src/assets/freeman-fmPortfolio.jpg",
+    imageUrl: "/src/assets/freeman-fmPortrait.jpg",
     imageId: "img-5",
     descId: "desc-5",
     altText: "Freeman FM Portrait"
@@ -85,7 +85,7 @@ const sections = [
     title: "Schwarzenegger",
     quote: '"The mind is the limit. As long as the mind can envision the fact that you can do something, you can do it, as long as you really believe 100 percent."',
     date: "04-09-20",
-    imageUrl: "/src/assets/schwarzenegger-fmPortfolio.jpg",
+    imageUrl: "/src/assets/schwarzenegger-fmPortrait.jpg",
     imageId: "img-5",
     descId: "desc-5",
     altText: "Schwarzenegger FM Portrait"
@@ -94,7 +94,7 @@ const sections = [
     title: "Ledger",
     quote: '"You see, in their last moments, people show you who they really are."',
     date: "04-01-20",
-    imageUrl: "/src/assets/Ledger-fmPortfolio.jpg",
+    imageUrl: "/src/assets/Ledger-fmPortrait.jpg",
     imageId: "img-5",
     descId: "desc-5",
     altText: "Ledger FM Portrait"
