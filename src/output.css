@@ -634,6 +634,10 @@ h2 {
   z-index: -10;
 }
 
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
 }

@@ -94,16 +94,20 @@ const sections = [
     title: "Ledger",
     quote: '"You see, in their last moments, people show you who they really are."',
     date: "04-01-20",
-    imageUrl: "/src/assets/Ledger-fmPortrait.jpg",
+    imageUrl: "/src/assets/ledger-fmPortrait.jpg",
     imageId: "img-5",
     descId: "desc-5",
     altText: "Ledger FM Portrait"
   },
-  // Jackie / 04-25-20
-  // RDJ / 04-18-20
-  // Freeman / 04-14-20
-  // Shwesceneger / 04-9-20
-  // Ledger / 04-01-20
+  {
+    title: "David",
+    quote: '"Every block of stone has a statue inside it and it is the task of the sculptor to discover it."',
+    date: "03-21-20",
+    imageUrl: "/src/assets/michaelangelo-fmPortrait.jpg",
+    imageId: "img-5",
+    descId: "desc-5",
+    altText: "David FM Portrait"
+  },
 ];
 
 // Function to create a section HTML
