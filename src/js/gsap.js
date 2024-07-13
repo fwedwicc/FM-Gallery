@@ -608,6 +608,186 @@ const createScrollAnimation = (start, end) => {
       duration: 3,
     }
   );
+  gsap.fromTo('#img-set-5',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-5',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-6',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-6',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-5',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-5',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-6',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-6',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-7',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-7',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-8',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-8',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-9',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-9',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-10',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-10',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#img-set-11',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-set-11',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
 };
 
 ScrollTrigger.matchMedia({
