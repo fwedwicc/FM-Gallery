@@ -41,8 +41,8 @@ const sections = [
     quote: '"The only advice anybody can give is if you wanna be a writer, keep writing. And read all you can, read everything."',
     date: "05-10-20",
     imageUrl: "/src/assets/stan-lee-fmPortrait.jpg",
-    imageId: "img-4",
-    descId: "desc-4",
+    imageId: "img-5",
+    descId: "desc-5",
     altText: "Stan Lee FM Portrait"
   },
   {
@@ -50,8 +50,8 @@ const sections = [
     quote: '"Nature made me a freak. Man made me a weapon. And God made it last too long."',
     date: "04-30-20",
     imageUrl: "/src/assets/logan-fmPortrait.jpg",
-    imageId: "img-5",
-    descId: "desc-5",
+    imageId: "img-6",
+    descId: "desc-6",
     altText: "Logan FM Portrait"
   },
   {
@@ -59,8 +59,8 @@ const sections = [
     quote: '"I’m not afraid of dying. I’m afraid of not trying."',
     date: "04-25-20",
     imageUrl: "/src/assets/jackie-fmPortrait.jpg",
-    imageId: "img-5",
-    descId: "desc-5",
+    imageId: "img-7",
+    descId: "desc-7",
     altText: "Jackie FM Portrait"
   },
   {
@@ -68,8 +68,8 @@ const sections = [
     quote: '"Sometimes you gotta run before you can walk."',
     date: "04-18-20",
     imageUrl: "/src/assets/rdj-fmPortrait.jpg",
-    imageId: "img-5",
-    descId: "desc-5",
+    imageId: "img-8",
+    descId: "desc-8",
     altText: "RDJ FM Portrait"
   },
   {
@@ -77,8 +77,8 @@ const sections = [
     quote: '"I can say that life is good to me. Has been and is good. So I think my task is to be good to it. So how do you be good to life? You live it."',
     date: "04-14-20",
     imageUrl: "/src/assets/freeman-fmPortrait.jpg",
-    imageId: "img-5",
-    descId: "desc-5",
+    imageId: "img-9",
+    descId: "desc-9",
     altText: "Freeman FM Portrait"
   },
   {
@@ -86,8 +86,8 @@ const sections = [
     quote: '"The mind is the limit. As long as the mind can envision the fact that you can do something, you can do it, as long as you really believe 100 percent."',
     date: "04-09-20",
     imageUrl: "/src/assets/schwarzenegger-fmPortrait.jpg",
-    imageId: "img-5",
-    descId: "desc-5",
+    imageId: "img-10",
+    descId: "desc-10",
     altText: "Schwarzenegger FM Portrait"
   },
   {
@@ -95,8 +95,8 @@ const sections = [
     quote: '"You see, in their last moments, people show you who they really are."',
     date: "04-01-20",
     imageUrl: "/src/assets/ledger-fmPortrait.jpg",
-    imageId: "img-5",
-    descId: "desc-5",
+    imageId: "img-11",
+    descId: "desc-11",
     altText: "Ledger FM Portrait"
   },
   {
@@ -104,8 +104,8 @@ const sections = [
     quote: '"Every block of stone has a statue inside it and it is the task of the sculptor to discover it."',
     date: "03-21-20",
     imageUrl: "/src/assets/michaelangelo-fmPortrait.jpg",
-    imageId: "img-5",
-    descId: "desc-5",
+    imageId: "img-12",
+    descId: "desc-12",
     altText: "David FM Portrait"
   },
 ];

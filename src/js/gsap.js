@@ -222,8 +222,310 @@ const createScrollAnimation = (start, end) => {
     }
   );
   // --------- // Section 4 ---------
-
-
+  // --------- Section 5 ---------
+  gsap.fromTo('#img-5',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-5',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#desc-5',
+    { opacity: 0 }, // from
+    { // to
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#desc-5',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: start,
+        end: end,
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  // --------- // Section 5 ---------
+  // --------- Section 6 ---------
+  gsap.fromTo('#img-6',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-6',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#desc-6',
+    { opacity: 0 }, // from
+    { // to
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#desc-6',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: start,
+        end: end,
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  // --------- // Section 6 ---------
+  // --------- Section 7 ---------
+  gsap.fromTo('#img-7',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-7',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#desc-7',
+    { opacity: 0 }, // from
+    { // to
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#desc-7',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: start,
+        end: end,
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  // --------- // Section 7 ---------
+  // --------- Section 8 ---------
+  gsap.fromTo('#img-8',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-8',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#desc-8',
+    { opacity: 0 }, // from
+    { // to
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#desc-8',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: start,
+        end: end,
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  // --------- // Section 8 ---------
+  // --------- Section 9 ---------
+  gsap.fromTo('#img-9',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-9',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#desc-9',
+    { opacity: 0 }, // from
+    { // to
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#desc-9',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: start,
+        end: end,
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  // --------- // Section 9 ---------
+  // --------- Section 10 ---------
+  gsap.fromTo('#img-10',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-10',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#desc-10',
+    { opacity: 0 }, // from
+    { // to
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#desc-10',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: start,
+        end: end,
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  // --------- // Section 10 ---------
+  // --------- Section 11 ---------
+  gsap.fromTo('#img-11',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-11',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#desc-11',
+    { opacity: 0 }, // from
+    { // to
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#desc-11',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: start,
+        end: end,
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  // --------- // Section 11 ---------
+  // --------- Section 12 ---------
+  gsap.fromTo('#img-12',
+    {
+      opacity: 0,
+      scale: 0.9 // Start with default size
+    }, // from
+    { // to
+      opacity: 1,
+      scale: 1, // End with smaller size
+      scrollTrigger: {
+        trigger: '#img-12',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 50%',
+        end: 'bottom 90%',
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  gsap.fromTo('#desc-12',
+    { opacity: 0 }, // from
+    { // to
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#desc-12',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: start,
+        end: end,
+      },
+      ease: 'none',
+      duration: 3,
+    }
+  );
+  // --------- // Section 12 ---------
 
 
   gsap.fromTo('#img-set-1',
