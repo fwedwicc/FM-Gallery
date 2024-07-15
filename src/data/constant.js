@@ -4,7 +4,7 @@ const sections = [
     title: "Dalí",
     quote: '"Surrealism is destructive, but it destroys only what it considers to be shackles limiting our vision."',
     date: "09-15-20",
-    imageUrl: "/src/assets/salvador-dali-fmPortrait.jpg",
+    imageUrl: "/src/assets/salvador-dali-fmPortrait.png",
     imageId: "img-1",
     descId: "desc-1",
     altText: "Salvadro Dalí FM Portrait"
