@@ -1,6 +1,6 @@
 # FM Gallery
 
-FM Gallery is a compilation of my portrait masterpieces created over the years. This website showcases my journey and skills as a traditional artist.
+FM Gallery is a curated collection of my most exceptional portrait masterpieces, showcasing the artistic journey and growth I have experienced throughout my career. Each piece reflects my dedication to capturing the essence of my subjects and the evolution of my skills as an artist.
 
 Image Overview ~ Under Construction
 
@@ -13,11 +13,23 @@ Image Overview ~ Under Construction
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-- TailwindCSS
-- GSAP
+<div align="left">
+  <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/html-logo.png" height="40" alt="HTML Logo"  />
+  <img width="12" />
+  <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/css-logo.png" height="40" alt="CSS Logo"  />
+  <img width="12" />
+  <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/javascript-logo.png" height="40" alt="JavaScript Logo"  />
+  <img width="12" />
+  <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/tailwind-logo.png" height="40" alt="TailwindCSS Logo"  />
+  <img width="12" />
+  <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/gsap-logo.png" height="40" alt="GSAP Logo"  />
+  <img width="12" />
+  <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/github-logo.png" height="40" alt="GitHub Logo"  />
+  <img width="12" />
+  <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/git-logo.png" height="40" alt="Git Logo"  />
+   <img width="12" />
+  <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/npm-logo.png" height="40" alt="NPM Logo"  />
+</div>
 
 ## Comission
 
