@@ -2,7 +2,7 @@
 
 FM Gallery is a curated collection of my most exceptional portrait masterpieces, showcasing the artistic journey and growth I have experienced throughout my career. Each piece reflects my dedication to capturing the essence of my subjects and the evolution of my skills as an artist.
 
-Image Overview ~ Under Construction
+<img src="https://github.com/fwedwicc/README-assets/blob/main/banners/FM-Gallery-banner.png" width='100%' alt="FM Gallery Overview"  />
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ Image Overview ~ Under Construction
 
 ## Comission
 
-Feel free to reach out to me through the following platforms:
+I am currently open for comission projects, Feel free to reach out to me through the following platforms:
 
 - **Email:** [moreno.frederick.capiral@gmail.com](mailto:moreno.frederick.capiral@gmail.com)
 - **Facebook:** [Frederick Moreno](https://www.facebook.com/fwedwic)
